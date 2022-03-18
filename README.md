@@ -41,6 +41,6 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 
 `fairseq` - implementation of model architecture, preprocessing pipeline, and training task loss
 
-`data-src` - preprocessed dataset for model to binarize. We put the sample data for obtaining result in Table 4 at [here](https://drive.google.com/drive/folders/1xZt-SYyC0neSl7cKsP97d03AaLNjKZ72?usp=sharing)
+`data-src` - preprocessed dataset for model to binarize. We put the data for pretraining at [here](https://drive.google.com/drive/folders/1_l__UqoWxus7XpHbdW96sKWmqUhudanf?usp=sharing), and finetuning at [here](https://drive.google.com/drive/folders/1xZt-SYyC0neSl7cKsP97d03AaLNjKZ72?usp=sharing)
 
 `data-bin` - stores binarized dataset for actual training
