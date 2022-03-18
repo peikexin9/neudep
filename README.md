@@ -37,7 +37,7 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 
 `checkpoints` - store the pretrained and finetuned checkpoints. We provide the pretrained model [here](https://drive.google.com/drive/folders/1MdI_0q1hOgTfa0QKioWSrhVmsFWLYyZe?usp=sharing): 
 
-`command` - scripts to pretrain and finetune the model
+`command` - scripts to pretrain and finetune the model. Hyperparameters are included in the training scripts too, e.g., `command/finetune/table3/finetune_table3_all.sh` we have `MAX_SENTENCES=32` indicating batch size is 32.
 
 `fairseq` - implementation of model architecture, preprocessing pipeline, and training task loss
 
