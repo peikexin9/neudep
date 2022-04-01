@@ -140,6 +140,8 @@ data-src
 data-raw
 data-bin
 result
+figs
+tabs
 
 # misc
 command/draw
