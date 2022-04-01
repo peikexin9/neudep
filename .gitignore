@@ -144,3 +144,5 @@ result
 # misc
 command/draw
 command/ghidra
+command/bda
+command/vsa
