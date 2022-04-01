@@ -17,17 +17,17 @@ from command import configs
 
 
 @dataclass
-class XdepConfig(FairseqDataclass):
+class NeudepConfig(FairseqDataclass):
     tpu: bool = II("common.tpu")
 
 
-@register_criterion("xdep", dataclass=XdepConfig)
-class XdepLoss(FairseqCriterion):
+@register_criterion("neudep", dataclass=NeudepConfig)
+class NeudepLoss(FairseqCriterion):
     """
     Implementation for the loss used in masked language model (MLM) training.
     """
 
-    def __init__(self, cfg: XdepConfig, task):
+    def __init__(self, cfg: NeudepConfig, task):
         super().__init__(task)
         self.tpu = cfg.tpu
 
