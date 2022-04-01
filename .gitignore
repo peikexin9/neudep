@@ -146,3 +146,4 @@ command/draw
 command/ghidra
 command/bda
 command/vsa
+command/ablation
